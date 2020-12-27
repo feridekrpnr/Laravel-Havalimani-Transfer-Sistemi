@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="" />
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/startbootstrap-agency-gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/startbootstrap-agency-gh-pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/about/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/about/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/close-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/creative-market.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/designmodo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/envato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/themeforest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/map-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/navbar-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/01-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/02-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/03-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/04-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/05-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/06-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mail/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mail/contact_me.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mail/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_PortfolioGrid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_portfolio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_clients.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_clients.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_team.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +58,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,6 +184,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lYssWjJ4e0wj441SGA3CaYtGSI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,8 +192,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -164,7 +217,10 @@
       <option name="presentableId" value="Default" />
       <updated>1607785566207</updated>
       <workItem from="1607785567328" duration="21556000" />
-      <workItem from="1607869291788" duration="13548000" />
+      <workItem from="1607869291788" duration="14122000" />
+      <workItem from="1607892596059" duration="837000" />
+      <workItem from="1609066334537" duration="5205000" />
+      <workItem from="1609075125109" duration="12143000" />
     </task>
     <servers />
   </component>
@@ -172,9 +228,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1607884595984">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609084812227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1607884595984" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609084812227" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
   </component>
 </project>
