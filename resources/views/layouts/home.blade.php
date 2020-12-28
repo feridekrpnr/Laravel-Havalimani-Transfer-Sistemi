@@ -18,19 +18,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('assets')}}/css/styles.css" rel="stylesheet" />
-</head>
+
+
 <body id="page-top">
+@include('home._menu')
 @include('home._header')
 
-<!-- Navigation-->
 
-    <div class="container"
-
-    </div>
 @section('content')
 
     @show
-@include('home._menu')
+
 @include('home._services')
 @include('home._portfolio')
 @include('home._about')

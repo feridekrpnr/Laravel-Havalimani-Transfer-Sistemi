@@ -2,53 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/startbootstrap-agency-gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/startbootstrap-agency-gh-pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/about/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/about/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/about/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/about/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/close-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/creative-market.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/designmodo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/envato.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logos/themeforest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/map-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/navbar-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/01-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/02-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/03-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/04-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/05-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/06-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/team/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/team/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/team/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/mail/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/mail/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_PortfolioGrid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_portfolio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_clients.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_clients.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_services.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_team.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +142,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lYssWjJ4e0wj441SGA3CaYtGSI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -220,21 +180,47 @@
       <workItem from="1607869291788" duration="14122000" />
       <workItem from="1607892596059" duration="837000" />
       <workItem from="1609066334537" duration="5205000" />
-      <workItem from="1609075125109" duration="12143000" />
+      <workItem from="1609075125109" duration="14074000" />
+      <workItem from="1609159527445" duration="2468000" />
+      <workItem from="1609176874640" duration="10908000" />
     </task>
+    <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
+      <created>1609100390286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100390333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Template düzenli bir şekilde parçalandı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Template düzenli bir şekilde parçalandı." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609084812227">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609100373106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609084812227" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609100373106" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609194016061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609194016061" />
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1609175129125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609175129125" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1609100437474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609100437474" />
   </component>
 </project>
