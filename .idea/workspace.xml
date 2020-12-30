@@ -2,11 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/close-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/creative-market.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/designmodo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/envato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/themeforest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/map-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/navbar-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/01-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/01-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/02-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/02-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/03-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/03-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/04-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/04-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/05-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/05-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/06-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/06-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +216,8 @@
       <workItem from="1609066334537" duration="5205000" />
       <workItem from="1609075125109" duration="14074000" />
       <workItem from="1609159527445" duration="2468000" />
-      <workItem from="1609176874640" duration="10908000" />
+      <workItem from="1609176874640" duration="11682000" />
+      <workItem from="1609268510841" duration="11991000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -191,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609100390333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Admin Paneli Laravel Frameworküne entegre edildi.">
+      <created>1609199883822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609199883822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,17 +241,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Template düzenli bir şekilde parçalandı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Template düzenli bir şekilde parçalandı." />
+    <MESSAGE value="Admin Paneli Laravel Frameworküne entegre edildi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin Paneli Laravel Frameworküne entegre edildi." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609100373106">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609199870333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609100373106" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609194016061">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609199870333" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609270463197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609194016061" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609270463197" />
     <state x="478" y="66" key="RollbackChangesDialog" timestamp="1609175129125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,9 +261,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1609100437474">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1609199913877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609100437474" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609199913877" />
   </component>
 </project>
