@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/about/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/close-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/creative-market.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/designmodo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/envato.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/logos/themeforest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/map-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/navbar-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/01-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/01-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/02-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/02-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/03-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/03-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/04-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/04-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/05-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/05-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/06-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/portfolio/06-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/img/team/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/contact_me.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/Assets/mail/jqBootstrapValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +150,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -217,7 +184,8 @@
       <workItem from="1609075125109" duration="14074000" />
       <workItem from="1609159527445" duration="2468000" />
       <workItem from="1609176874640" duration="11682000" />
-      <workItem from="1609268510841" duration="11991000" />
+      <workItem from="1609268510841" duration="12843000" />
+      <workItem from="1609443354073" duration="12027000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -233,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609199883822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Admin Paneli Laravel Frameworküne entegre edildi.">
+      <created>1609286810091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609286810091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,25 +220,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Admin Paneli Laravel Frameworküne entegre edildi." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609199870333">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609455049838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609199870333" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609270463197">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609455049838" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1609286778116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609270463197" />
-    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1609175129125">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609286778116" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609175129125" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1609454418194" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609446746022">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609446746022" />
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1609459424186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609459424186" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1609199913877">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1609286825206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609199913877" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609286825206" />
   </component>
 </project>
