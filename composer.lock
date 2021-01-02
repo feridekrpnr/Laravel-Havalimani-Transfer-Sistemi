@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "488826e8d6585014354bb6f771aa9cac",
+    "content-hash": "9d7f9e3b1b979f358098b8a91976268c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1359,16 +1359,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v1.6.4",
+            "version": "v1.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "2668f126688aee6187d50939d1afcf496532485c"
+                "reference": "0d3d5a9c91702892c0b0d2047fd81540747053e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/2668f126688aee6187d50939d1afcf496532485c",
-                "reference": "2668f126688aee6187d50939d1afcf496532485c",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/0d3d5a9c91702892c0b0d2047fd81540747053e9",
+                "reference": "0d3d5a9c91702892c0b0d2047fd81540747053e9",
                 "shasum": ""
             },
             "require": {
@@ -1421,7 +1421,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2020-12-08T18:37:50+00:00"
+            "time": "2020-12-15T19:12:42+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -1554,6 +1554,64 @@
                 "source": "https://github.com/laravel/tinker/tree/v2.5.0"
             },
             "time": "2020-10-29T13:07:12+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "444072cb2f8baaa15172c5cde2bd30d188c3b7e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/444072cb2f8baaa15172c5cde2bd30d188c3b7e7",
+                "reference": "444072cb2f8baaa15172c5cde2bd30d188c3b7e7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/ui/issues",
+                "source": "https://github.com/laravel/ui/tree/v3.1.0"
+            },
+            "time": "2020-11-03T19:51:21+00:00"
         },
         {
             "name": "league/commonmark",
