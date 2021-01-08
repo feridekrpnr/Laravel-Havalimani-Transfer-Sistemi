@@ -27,6 +27,20 @@ Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 
 Route::get('/test/{id}', [HomeController::class, 'test'])->where('id', '[0-9]+');
 //Admin
+Route::middleware('auth')->prefix('admin')->group(function () {
+
+    Route::get('/', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin_home');
+
+    Route::get('category',[\App\Http\Controllers\Admin\CategoryController::class, 'index'])->name('admin_category');
+    Route::get('category/add',[\App\Http\Controllers\Admin\CategoryController::class, 'add'])->name('admin_category_add');
+    Route::get('category/update',[\App\Http\Controllers\Admin\CategoryController::class, 'update'])->name('admin_category_update');
+    Route::get('category/delete',[\App\Http\Controllers\Admin\CategoryController::class, 'destroy'])->name('admin_category_delete');
+    Route::get('category/show',[\App\Http\Controllers\Admin\CategoryController::class, 'show'])->name('admin_category_show');
+});
+
+
+
+
 
 
 Route::get('/admin',[\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin_home')->middleware('auth');

@@ -31,10 +31,13 @@
 </head>
 
 <body>
-<div class="content mt-3">
+<div class="content mt-8">
 
 @include('admin._sidebar')
-@yield('content')
+    <div id="right-panel" class="right-panel">
+        @include('admin._header')
+        @yield('content')
+    </div>
 @include('admin._footer')
 @yield('footer')
 </body>
