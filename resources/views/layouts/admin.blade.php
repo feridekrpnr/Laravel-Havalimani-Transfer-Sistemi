@@ -1,44 +1,41 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@yield('title')</title>
-
-
-    <link rel="apple-touch-icon" href="{{asset('assets')}}/admin/apple-icon.png">
-    <link rel="shortcut icon" href="{{asset('assets')}}/admin/favicon.ico">
-
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/themify-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/selectFX/css/cs-skin-elastic.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendors/jqvmap/dist/jqvmap.min.css">
-
-
-    <link rel="stylesheet" href="{{asset('assets')}}/admin/assets/css/style.css">
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/vendors/iconfonts/ionicons/dist/css/ionicons.css">
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/vendors/css/vendor.bundle.addons.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/css/shared/style.css">
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="{{ asset('assets')}}/admin/assets/css/demo_1/style.css">
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="{{ asset('assets')}}/admin/assets/images/favicon.ico" />
     @yield('css')
     @yield('javascript')
 </head>
-
 <body>
-<div class="content mt-8">
 
-@include('admin._sidebar')
-    <div id="right-panel" class="right-panel">
-        @include('admin._header')
-        @yield('content')
+<div class="container-scroller">
+@include('admin._header')
+    <div class="container-fluid page-body-wrapper">
+    @include('admin._sidebar')
     </div>
-@include('admin._footer')
-@yield('footer')
+   @yield('content')
+    @include('admin._footer')
+    @yield('footer')
+</div>
+
 </body>
+
 </html>

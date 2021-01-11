@@ -1,98 +1,96 @@
-<!-- Left Panel -->
-
-<aside id="left-panel" class="left-panel">
-    <nav class="navbar navbar-expand-sm navbar-default">
-
-        <div class="navbar-header">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand" href="{{ route('admin_home') }}"><img src="{{asset('assets')}}/admin/images/logo.png" alt="Logo"></a>
-            <a class="navbar-brand hidden" href="{{ route('admin_home') }}"><img src="{{asset('assets')}}/admin/images/logo2.png" alt="Logo"></a>
-            <div class="info">
-                @auth
-                    <a href="#" class="d-block">{{Auth::user()->name }}</a>
-                    <a href="{{route('admin_logout')}}" class="d-block">Logout</a>
-                @endauth
-            </div>
-
-        </div>
-
-
-        <div id="main-menu" class="main-menu collapse navbar-collapse">
-
-            <ul class="nav navbar-nav" data-widget="treeview" role="menu" data-accordion="false">
-
-                <h3 class="menu-title"></h3><!-- /.menu-title -->
-
-                <li class="nav-item">
-                    <<a href="{{ route('admin_home') }}" class="nav-link">
-                        <i class="menu-icon fa fa-fort-awesome"></i>
-
-                        <p>
-                            Home
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item has-treeview">
-                    <a href="{{route('admin_category')}}" class="nav-link">
-                        <i class="menu-icon fa fa-fort-awesome"></i>
-                        Category
-                    </a>
-                </li>
-                <li class="nav nav-treeview">
-
-                    <a href="maps-vector.html">Cities
-                        <i class="menu-icon fa fa-fort-awesome">
-
-                        </i>
-                    </a>
-
-                </li>
-
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="maps-vector.html">Hour
-                            <i class="menu-icon fa fa-try">
-
-                            </i>
-                        </a>
-
-                    </li>
-                </ul>
-                </li>
-
-                <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>deneme</a>
-                    <ul class="sub-menu children dropdown-menu">
-                        <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Buttons</a></li>
-                        <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
-                        <li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
-                        <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Buttons</a></li>
-                        <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>
-                        <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Alerts</a></li>
-                        <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li>
-                        <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li>
-                        <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li>
-                        <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li>
-                        <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li>
+<div class="container-fluid page-body-wrapper">
+    <!-- partial:partials/_sidebar.html -->
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+            <li class="nav-item nav-profile">
+                <a href="#" class="nav-link">
+                    <div class="profile-image">
+                        <img class="img-xs rounded-circle" src="{{ asset('assets')}}/admin/assets/images/faces/face8.jpg" alt="profile image">
+                        <div class="dot-indicator bg-success"></div>
+                    </div>
+                    <div class="text-wrapper">
+                        <p class="profile-name">Feride Karpınar</p>
+                        <p class="designation">Premium user</p>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item nav-category">Home</li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('admin_home')}}">
+                    <i class="menu-icon typcn typcn-document-text"></i>
+                    <span class="menu-title">About us</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                    <i class="menu-icon typcn typcn-coffee"></i>
+                    <span class="menu-title">Vehicles</span>
+                    <i class="menu-arrow"></i>
+                </a>
+                <div class="collapse" id="ui-basic">
+                    <ul class="nav flex-column sub-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+                        </li>
                     </ul>
-                </li>
-
-
-                <h3 class="menu-title">Extras</h3><!-- /.menu-title -->
-                <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
-                    <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">Login</a></li>
-                        <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                        <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/forms/basic_elements.html">
+                    <i class="menu-icon typcn typcn-shopping-bag"></i>
+                    <span class="menu-title">Cities</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/charts/chartjs.html">
+                    <i class="menu-icon typcn typcn-th-large-outline"></i>
+                    <span class="menu-title">Services</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('admin_category')}}">
+                    <i class="menu-icon typcn typcn-bell"></i>
+                    <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/icons/font-awesome.html">
+                    <i class="menu-icon typcn typcn-user-outline"></i>
+                    <span class="menu-title">Icons</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                    <i class="menu-icon typcn typcn-document-add"></i>
+                    <span class="menu-title">User Pages</span>
+                    <i class="menu-arrow"></i>
+                </a>
+                <div class="collapse" id="auth">
+                    <ul class="nav flex-column sub-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/samples/login.html"> Login </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/samples/register.html"> Register </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('admin_login')}}"> Logout </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
+                </div>
+            </li>
+        </ul>
     </nav>
-</aside><!-- /#left-panel -->
 
-<!-- Left Panel -->
