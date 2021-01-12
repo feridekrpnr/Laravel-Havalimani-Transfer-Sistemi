@@ -29,12 +29,37 @@
 <div class="container-scroller">
 @include('admin._header')
     <div class="container-fluid page-body-wrapper">
-    @include('admin._sidebar')
+        @include('admin._sidebar')
+        <div class="main-panel">
+            <div class="content-wrapper">
+              @yield('content')
+            </div>
+           @include('admin._footer')
+
+           @yield('footer')
+        </div>
     </div>
-   @yield('content')
-    @include('admin._footer')
-    @yield('footer')
-</div>
+<!-- main-panel ends -->
+  </div>
+
+<!-- page-body-wrapper ends -->
+
+<!-- container-scroller -->
+<!-- plugins:js -->
+<script src="{{ asset('assets')}}/admin/assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="{{ asset('assets')}}/admin/assets/vendors/js/vendor.bundle.addons.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="{{ asset('assets')}}/admin/assets/js/shared/off-canvas.js"></script>
+<script src="{{ asset('assets')}}/admin/assets/js/shared/misc.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="{{ asset('assets')}}/admin/assets/js/demo_1/dashboard.js"></script>
+<!-- End custom js for this page-->
+<script src="{{ asset('assets')}}/admin/assets/js/shared/jquery.cookie.js" type="text/javascript"></script>
+
 
 </body>
 

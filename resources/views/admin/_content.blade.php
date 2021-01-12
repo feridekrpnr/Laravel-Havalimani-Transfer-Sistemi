@@ -1,5 +1,4 @@
-<div class="main-panel">
-    <div class="content-wrapper">
+
         <!-- Page Title Header Starts-->
         <div class="row page-title-header">
             <div class="col-12">
@@ -567,3 +566,6 @@
             </div>
         </div>
     </div>
+
+</div>
+

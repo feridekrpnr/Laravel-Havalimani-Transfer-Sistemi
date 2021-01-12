@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +202,8 @@
       <workItem from="1610193499187" duration="19966000" />
       <workItem from="1610267339753" duration="29741000" />
       <workItem from="1610366120034" duration="4500000" />
-      <workItem from="1610400567299" duration="11305000" />
+      <workItem from="1610400567299" duration="11636000" />
+      <workItem from="1610454390977" duration="10111000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -243,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610064371630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Category oluşturuldu">
+      <created>1610414522533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610414522533</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +266,8 @@
     <MESSAGE value="Admin Panel Auth hatalarin giderilmesi" />
     <MESSAGE value="Admin Panelde ki hatalar giderildi." />
     <MESSAGE value="Category.blade oluşturuldu ve databasede ki migrations dosyalarına eklemeler yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Category.blade oluşturuldu ve databasede ki migrations dosyalarına eklemeler yapıldı." />
+    <MESSAGE value="Add Category oluşturuldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Category oluşturuldu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -266,10 +278,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610064364097">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610414514307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610064364097" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610414514307" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,13 +298,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610064417718">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610414542634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610064417718" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1610412560877">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610414542634" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1610463039510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610412560877" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610463039510" />
   </component>
 </project>
