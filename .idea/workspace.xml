@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,6 +198,8 @@
       <workItem from="1610147660139" duration="1954000" />
       <workItem from="1610193499187" duration="19966000" />
       <workItem from="1610267339753" duration="29741000" />
+      <workItem from="1610366120034" duration="4500000" />
+      <workItem from="1610400567299" duration="11305000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -282,10 +278,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610288717626" />
-    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1610285623458">
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1610401407951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610285623458" />
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610401407951" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -294,5 +290,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610064417718" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1610412560877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610412560877" />
   </component>
 </project>
