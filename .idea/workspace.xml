@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Kategori ekleme ve silme işlemleri yapıldı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -201,7 +201,7 @@
       <workItem from="1610366120034" duration="4500000" />
       <workItem from="1610400567299" duration="11636000" />
       <workItem from="1610454390977" duration="10592000" />
-      <workItem from="1610482175377" duration="4619000" />
+      <workItem from="1610482175377" duration="11117000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610476516457</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Kategori ekleme ve silme işlemleri yapıldı.">
+      <created>1610487514954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610487514954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +280,8 @@
     <MESSAGE value="Category.blade oluşturuldu ve databasede ki migrations dosyalarına eklemeler yapıldı." />
     <MESSAGE value="Add Category oluşturuldu" />
     <MESSAGE value="Admin Tempatede ki hatalar giderildi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Admin Tempatede ki hatalar giderildi." />
+    <MESSAGE value="Kategori ekleme ve silme işlemleri yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kategori ekleme ve silme işlemleri yapıldı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -284,10 +292,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610476475081">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610496034485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610476475081" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610496034485" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -304,10 +312,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610476724073">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610487571447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610476724073" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610487571447" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1610463039510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
