@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Kategori ekleme ve silme işlemleri yapıldı.">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +202,14 @@
       <workItem from="1610366120034" duration="4500000" />
       <workItem from="1610400567299" duration="11636000" />
       <workItem from="1610454390977" duration="10592000" />
-      <workItem from="1610482175377" duration="11117000" />
+      <workItem from="1610482175377" duration="11743000" />
+      <workItem from="1610535925882" duration="2874000" />
+      <workItem from="1610571119943" duration="4540000" />
+      <workItem from="1610579829653" duration="1032000" />
+      <workItem from="1610581114896" duration="1119000" />
+      <workItem from="1610582667036" duration="1301000" />
+      <workItem from="1610617203292" duration="900000" />
+      <workItem from="1610656377060" duration="11493000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -266,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610487514954</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Kategori düzenleme formu yapıldı.">
+      <created>1610496560351</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610496560399</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +296,8 @@
     <MESSAGE value="Add Category oluşturuldu" />
     <MESSAGE value="Admin Tempatede ki hatalar giderildi." />
     <MESSAGE value="Kategori ekleme ve silme işlemleri yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kategori ekleme ve silme işlemleri yapıldı." />
+    <MESSAGE value="Kategori düzenleme formu yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kategori düzenleme formu yapıldı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -292,10 +308,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610496034485">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610666276400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610496034485" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610666276400" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610496535328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610496535328" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -304,18 +324,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610288717626" />
-    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1610401407951">
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1610667570052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610401407951" />
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610667570052" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610487571447">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610496617194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610487571447" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610496617194" />
+    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1610661689272" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1610463039510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -38,7 +38,18 @@ Route::middleware('auth')->prefix('admin')->group(function(){
     Route::get('category/delete/{id}',[\App\Http\Controllers\Admin\CategoryController::class,'destroy'])->name('admin_category_delete');
     Route::get('category/show',[\App\Http\Controllers\Admin\CategoryController::class,'show'])->name('admin_category_show');
 
+//Transfer
+    Route::prefix('transfer')->group(function(){
 
+        Route::get('/',[\App\Http\Controllers\Admin\TransferController::class,'index'])->name('admin_transfer');
+        Route::get('create',[\App\Http\Controllers\Admin\TransferController::class,'create'])->name('admin_transfer_add');
+        Route::post('store',[\App\Http\Controllers\Admin\TransferController::class,'store'])->name('admin_transfer_create');
+        Route::get('edit/{id}',[\App\Http\Controllers\Admin\TransferController::class,'edit'])->name('admin_transfer_edit');
+        Route::post('update/{id}',[\App\Http\Controllers\Admin\TransferController::class,'update'])->name('admin_transfer_update');
+        Route::get('delete/{id}',[\App\Http\Controllers\Admin\TransferController::class,'destroy'])->name('admin_transfer_delete');
+        Route::get('show',[\App\Http\Controllers\Admin\TransferController::class,'show'])->name('admin_transfer_show');
+
+    });
 
 
 
