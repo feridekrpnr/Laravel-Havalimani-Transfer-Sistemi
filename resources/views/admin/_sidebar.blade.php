@@ -22,7 +22,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="collapse" href="{{route('admin_transfer')}}" aria-expanded="false" aria-controls="ui-basic" >
+                <a class="nav-link" data-toggle="collapse" href="{{route('admin_transfers')}}" aria-expanded="false" aria-controls="ui-basic" >
                     <i class="menu-icon typcn typcn-coffee"></i>
                     <span class="menu-title">Transfers</span>
 

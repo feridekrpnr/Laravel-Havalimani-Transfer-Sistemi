@@ -41,9 +41,9 @@ Route::middleware('auth')->prefix('admin')->group(function(){
 //Transfer
     Route::prefix('transfer')->group(function(){
 
-        Route::get('/',[\App\Http\Controllers\Admin\TransferController::class,'index'])->name('admin_transfer');
+        Route::get('/',[\App\Http\Controllers\Admin\TransferController::class,'index'])->name('admin_transfers');
         Route::get('create',[\App\Http\Controllers\Admin\TransferController::class,'create'])->name('admin_transfer_add');
-        Route::post('store',[\App\Http\Controllers\Admin\TransferController::class,'store'])->name('admin_transfer_create');
+        Route::post('store',[\App\Http\Controllers\Admin\TransferController::class,'store'])->name('admin_transfer_store');
         Route::get('edit/{id}',[\App\Http\Controllers\Admin\TransferController::class,'edit'])->name('admin_transfer_edit');
         Route::post('update/{id}',[\App\Http\Controllers\Admin\TransferController::class,'update'])->name('admin_transfer_update');
         Route::get('delete/{id}',[\App\Http\Controllers\Admin\TransferController::class,'destroy'])->name('admin_transfer_delete');
