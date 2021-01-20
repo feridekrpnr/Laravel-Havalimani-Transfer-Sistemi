@@ -5,7 +5,7 @@
             <li class="nav-item nav-profile">
                 <a href="#" class="nav-link">
                     <div class="profile-image">
-                        <img class="img-xs rounded-circle" src="{{ asset('assets')}}/admin/assets/images/faces/face8.jpg" alt="profile image">
+                        <img class="img-xs rounded-circle" src="{{ asset('assets')}}/admin/assets/images/faces/face2.jpg" alt="profile image">
                         <div class="dot-indicator bg-success"></div>
                     </div>
                     <div class="text-wrapper">
@@ -22,13 +22,12 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="collapse" href="{{route('admin_transfers')}}" aria-expanded="false" aria-controls="ui-basic" >
-                    <i class="menu-icon typcn typcn-coffee"></i>
+                <a class="nav-link"  href="{{route('admin_transfers')}}">
+                    <i class="menu-icon typcn typcn-document-text"></i>
                     <span class="menu-title">Transfers</span>
-
                 </a>
-
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="pages/forms/basic_elements.html">
                     <i class="menu-icon typcn typcn-shopping-bag"></i>

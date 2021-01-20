@@ -4,7 +4,6 @@
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,8 @@
       <workItem from="1610582667036" duration="1301000" />
       <workItem from="1610617203292" duration="900000" />
       <workItem from="1610656377060" duration="12251000" />
-      <workItem from="1610923654439" duration="9277000" />
+      <workItem from="1610923654439" duration="9987000" />
+      <workItem from="1611144216829" duration="10154000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610668525670</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı.">
+      <created>1610935197236</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610935197236</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +313,8 @@
     <MESSAGE value="Kategori ekleme ve silme işlemleri yapıldı." />
     <MESSAGE value="Kategori düzenleme formu yapıldı." />
     <MESSAGE value="Tranfer tablosu oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tranfer tablosu oluşturuldu." />
+    <MESSAGE value="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -321,10 +329,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610934553226" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610668521026">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610935192474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610668521026" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610935192474" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -341,10 +349,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610668548990">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1610935213039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610668548990" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610935213039" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
