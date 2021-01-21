@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +211,7 @@
       <workItem from="1610617203292" duration="900000" />
       <workItem from="1610656377060" duration="12251000" />
       <workItem from="1610923654439" duration="9987000" />
-      <workItem from="1611144216829" duration="10154000" />
+      <workItem from="1611144216829" duration="22826000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610935197236</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Metin editörü eklendi.">
+      <created>1611171760172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611171760207</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +322,8 @@
     <MESSAGE value="Kategori düzenleme formu yapıldı." />
     <MESSAGE value="Tranfer tablosu oluşturuldu." />
     <MESSAGE value="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı." />
+    <MESSAGE value="Metin editörü eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Metin editörü eklendi." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -325,14 +334,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610934553226">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611184875292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610934553226" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1610935192474">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611184875292" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611171747372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610935192474" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611171747372" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

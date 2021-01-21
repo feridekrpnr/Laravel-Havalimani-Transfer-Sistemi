@@ -38,7 +38,7 @@ Route::middleware('auth')->prefix('admin')->group(function(){
     Route::get('category/delete/{id}',[\App\Http\Controllers\Admin\CategoryController::class,'destroy'])->name('admin_category_delete');
     Route::get('category/show',[\App\Http\Controllers\Admin\CategoryController::class,'show'])->name('admin_category_show');
 
-//Transfer
+    //Transfer
     Route::prefix('transfer')->group(function(){
 
         Route::get('/',[\App\Http\Controllers\Admin\TransferController::class,'index'])->name('admin_transfers');
@@ -50,10 +50,15 @@ Route::middleware('auth')->prefix('admin')->group(function(){
         Route::get('show',[\App\Http\Controllers\Admin\TransferController::class,'show'])->name('admin_transfer_show');
 
     });
+    //Transfer Image Galery
+    Route::prefix('image')->group(function() {
 
+        Route::get('create/{transfer_id}', [\App\Http\Controllers\Admin\ImageController::class, 'create'])->name('admin_image_add');
+        Route::post('store/{transfer_id}', [\App\Http\Controllers\Admin\ImageController::class, 'store'])->name('admin_image_store');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\ImageController::class, 'destroy'])->name('admin_image_delete');
+        Route::get('show', [\App\Http\Controllers\Admin\ImageControllerr::class, 'show'])->name('admin_image_show');
 
-
-
+    });
 
 });
 
