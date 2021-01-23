@@ -47,9 +47,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/icons/font-awesome.html">
+                <a class="nav-link" href="{{route('admin_setting')}}">
                     <i class="menu-icon typcn typcn-user-outline"></i>
-                    <span class="menu-title">Icons</span>
+                    <span class="menu-title">Settings</span>
                 </a>
             </li>
             <li class="nav-item">

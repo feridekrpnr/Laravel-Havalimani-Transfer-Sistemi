@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Transfer image gallery oluşturuldu.">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +213,9 @@
       <workItem from="1610923654439" duration="9987000" />
       <workItem from="1611144216829" duration="23534000" />
       <workItem from="1611228493199" duration="10126000" />
-      <workItem from="1611256362223" duration="13933000" />
+      <workItem from="1611256362223" duration="14039000" />
+      <workItem from="1611317276077" duration="9446000" />
+      <workItem from="1611345321172" duration="14902000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -312,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611191317836</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Setting tablosu oluşturuldu.">
+      <created>1611274244990</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611274244990</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +342,8 @@
     <MESSAGE value="Tranfer tablosunda ekleme,düzenleme ve silme işlemleri yapıldı." />
     <MESSAGE value="Metin editörü eklendi." />
     <MESSAGE value="Transfer image gallery oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer image gallery oluşturuldu." />
+    <MESSAGE value="Setting tablosu oluşturuldu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting tablosu oluşturuldu." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -343,18 +354,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611184875292">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611346517449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611184875292" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611268372740">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611346517449" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611274239136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611268372740" />
-    <state width="352" height="188" key="Git.Branch.Popup" timestamp="1611191652148">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611274239136" />
+    <state width="354" height="190" key="Git.Branch.Popup" timestamp="1611274255096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="352" height="188" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1611191652148" />
+    <state width="354" height="190" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1611274255096" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -363,25 +374,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610288717626" />
-    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1610928367274">
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1611358901911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610928367274" />
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611358901911" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607892845395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1611191380868">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1611274260331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611191380868" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611274260331" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1610661689272" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1610463039510">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1611350556441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610463039510" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611350556441" />
   </component>
 </project>
