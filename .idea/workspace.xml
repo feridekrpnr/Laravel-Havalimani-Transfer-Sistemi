@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,8 @@
       <workItem from="1611228493199" duration="10126000" />
       <workItem from="1611256362223" duration="14039000" />
       <workItem from="1611317276077" duration="9446000" />
-      <workItem from="1611345321172" duration="14902000" />
+      <workItem from="1611345321172" duration="15837000" />
+      <workItem from="1611444783722" duration="5575000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -322,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611274244990</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Settings de düzenlemeler yapıldı.">
+      <created>1611362480664</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611362480780</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +349,8 @@
     <MESSAGE value="Metin editörü eklendi." />
     <MESSAGE value="Transfer image gallery oluşturuldu." />
     <MESSAGE value="Setting tablosu oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting tablosu oluşturuldu." />
+    <MESSAGE value="Settings de düzenlemeler yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Settings de düzenlemeler yapıldı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -358,14 +365,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611346517449" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611274239136">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611362471678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611274239136" />
-    <state width="354" height="190" key="Git.Branch.Popup" timestamp="1611274255096">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611362471678" />
+    <state width="356" height="192" key="Git.Branch.Popup" timestamp="1611362502160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="354" height="190" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1611274255096" />
+    <state width="356" height="192" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1611362502160" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,10 +389,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1611274260331">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1611362514497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611274260331" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611362514497" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
