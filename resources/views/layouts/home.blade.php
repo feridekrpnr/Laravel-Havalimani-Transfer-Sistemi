@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title> @yield('title') </title>
+    <title> @yield('title')</title>
     <meta name="description" content=" @yield('description') ">
     <meta name="keywords" content=" @yield('keywords') ">
     <meta name="author" content="Kahtalı Miçe">
@@ -22,18 +22,14 @@
 
 <body id="page-top">
 @include('home._menu')
-@include('home._header')
+@yield('header')
 
 
-@section('content')
 
-    @show
+@yield('content')
+@yield('services')
+@yield('portfolio')
 
-@include('home._services')
-@include('home._portfolio')
-@include('home._about')
-@include('home._team')
-@include('home._contact')
 
 
 @include('home._footer')

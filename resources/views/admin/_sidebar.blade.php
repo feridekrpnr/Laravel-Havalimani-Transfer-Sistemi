@@ -22,6 +22,12 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/">
+                    <i class="menu-icon typcn typcn-document-text"></i>
+                    <span class="menu-title">Ana sayfa</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link"  href="{{route('admin_transfers')}}">
                     <i class="menu-icon typcn typcn-document-text"></i>
                     <span class="menu-title">Transfers</span>

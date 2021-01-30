@@ -14,16 +14,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home2', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::redirect('/anasayfa', '/home')->name('anasayfa');
+Route::redirect('/', '/index')->name('home');
 
 Route::get('/', function () {
     return view('home.index');
 });
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('homepage');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/vehicles', [HomeController::class, 'aboutus'])->name('vehicles');
+Route::get('/references', [HomeController::class, 'reference'])->name('references');
+Route::get('/fag', [HomeController::class, 'faq'])->name('faq');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount');
+Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
+
 
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 //Admin
@@ -68,7 +75,7 @@ Route::middleware('auth')->prefix('admin')->group(function(){
 
 Route::get('/admin/login', [HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
-Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');
+Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 
 
 
