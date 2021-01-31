@@ -13,7 +13,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('references')}}">References</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('faq')}}">Faq</a></li>
 
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/login">Login/ </a> <a class="nav-link js-scroll-trigger" href="/dashboard">Join </a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/login">Login/ </a> <a class="nav-link js-scroll-trigger" href="/register">Join </a></li>
 
                   <li>
                         @auth
