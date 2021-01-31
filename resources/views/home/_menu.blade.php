@@ -3,7 +3,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
-            <i class="fas fa-bars ml-1"></i>
+            <i class="fas fa-bars ml-n1"></i>
         </button>
         <div class="collapse navbar-collapse text-dark" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto ">
@@ -17,7 +17,7 @@
 
                   <li>
                         @auth
-                            <a class="dropdown-item" href="#"> <img class="img-profile rounded-circle" src="{{ asset('assets')}}/admin/assets/images/faces/face2.jpg" style="max-width: 40px">
+                            <a class="dropdown-item" href="{{route('myprofile')}}"> <img class="img-profile rounded-circle" src="{{ asset('assets')}}/admin/assets/images/faces/face2.jpg" style="max-width: 40px">
 
                                 {{Auth::user()->name }}
 

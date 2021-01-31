@@ -1,5 +1,6 @@
 @php
-    $setting=\App\Http\Controllers\HomeController::getsetting();
+    $setting=\App\Http\Controllers\HomeController::getsetting()
+
 @endphp
 @extends('layouts.home')
 

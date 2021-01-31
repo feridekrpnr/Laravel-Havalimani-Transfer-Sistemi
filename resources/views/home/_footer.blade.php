@@ -19,7 +19,7 @@
             <div class="col-lg-4 text-lg-right">
              <h4>Address</h4>
                 {{$setting->company}}<br>
-                {{$setting->address}}<br>
+                <strong>Address :</strong> {{$setting->address}}<br>
                 <strong>Phone :</strong>{{$setting->phone}}<br>
                 <strong>Fax :</strong>{{$setting->fax}}<br>
                 <strong>Email :</strong>{{$setting->email}}<br>

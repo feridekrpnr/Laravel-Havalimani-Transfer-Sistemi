@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_services.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_team.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +225,9 @@
       <workItem from="1611493555017" duration="37000" />
       <workItem from="1611940037349" duration="14898000" />
       <workItem from="1612004775854" duration="12916000" />
-      <workItem from="1612029163033" duration="17315000" />
+      <workItem from="1612029163033" duration="21992000" />
+      <workItem from="1612090551459" duration="10582000" />
+      <workItem from="1612110194490" duration="3603000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -352,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611451206357</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Category kısmında alt categori başlıkları oluşturuldu ve Home page sayfasında ki ayarlar yapıldı.">
+      <created>1612050170555</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612050170555</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +378,8 @@
     <MESSAGE value="Setting tablosu oluşturuldu." />
     <MESSAGE value="Settings de düzenlemeler yapıldı." />
     <MESSAGE value="Transfer ve category arasında ki one to many ilişkisi yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer ve category arasında ki one to many ilişkisi yapıldı." />
+    <MESSAGE value="Category kısmında alt categori başlıkları oluşturuldu ve Home page sayfasında ki ayarlar yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Category kısmında alt categori başlıkları oluşturuldu ve Home page sayfasında ki ayarlar yapıldı." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -390,22 +394,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611346517449" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1611451202352">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1612050160802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611451202352" />
-    <state width="358" height="194" key="Git.Branch.Popup" timestamp="1611451224384">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612050160802" />
+    <state width="360" height="196" key="Git.Branch.Popup" timestamp="1612050180982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="358" height="194" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1611451224384" />
+    <state width="360" height="196" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612050180982" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1609454418194" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612017669615">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612102427238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612017669615" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612102427238" />
     <state x="478" y="66" key="RollbackChangesDialog" timestamp="1611358901911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -414,10 +418,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1611451229597">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612050189605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611451229597" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612050189605" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -438,6 +442,11 @@
           <url>file://$PROJECT_DIR$/resources/views/home/_menu.blade.php</url>
           <line>33</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home/user_profile.blade.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
