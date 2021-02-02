@@ -25,10 +25,11 @@ Route::get('/', function () {
 });
 Route::get('/home', [HomeController::class, 'index'])->name('homepage');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
-Route::get('/vehicles', [HomeController::class, 'aboutus'])->name('vehicles');
-Route::get('/references', [HomeController::class, 'reference'])->name('references');
-Route::get('/fag', [HomeController::class, 'faq'])->name('faq');
+Route::get('/vehicles', [HomeController::class, 'vehicles'])->name('vehicles');
+Route::get('/references', [HomeController::class, 'references'])->name('references');
+Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount');
 Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
 
