@@ -68,7 +68,8 @@ class HomeController extends Controller
 
 
         $data->save();
-        return redirect()->route('contact');
+
+        return redirect()->route('contact')->with('info', 'Mesajınız başarılı bir şekilde kaydedilmiştir,Teşekkür ederiz.');
     }
     public function login()
     {

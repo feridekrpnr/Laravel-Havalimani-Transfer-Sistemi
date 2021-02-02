@@ -14,19 +14,21 @@
                     </div>
                 </a>
             </li>
-            <li class="nav-item nav-category">Home</li>
+            <li class="nav-item nav-category" href="{{route('admin_home')}}">Home</li>
             <li class="nav-item">
                 <a class="nav-link" href="{{route('admin_home')}}">
                     <i class="menu-icon typcn typcn-document-text"></i>
                     <span class="menu-title">About us</span>
                 </a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="{{route('admin_message')}}">
                     <i class="menu-icon typcn typcn-document-text"></i>
-                    <span class="menu-title">Ana sayfa</span>
+                    <span class="menu-title">Contact Messages</span>
                 </a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link"  href="{{route('admin_transfers')}}">
                     <i class="menu-icon typcn typcn-document-text"></i>

@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="User Profil Page sayfasında ek alanlar oluşturuldu">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Create messages tablosu oluşturuldu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_about.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,15 +174,15 @@
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\home" />
       <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\admin" />
+      <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -245,7 +243,8 @@
       <workItem from="1612090551459" duration="10582000" />
       <workItem from="1612110194490" duration="17933000" />
       <workItem from="1612182260965" duration="764000" />
-      <workItem from="1612186677909" duration="22452000" />
+      <workItem from="1612186677909" duration="22670000" />
+      <workItem from="1612266296778" duration="14681000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -387,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612137442377</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Create messages tablosu oluşturuldu">
+      <created>1612230281406</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612230281451</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +431,8 @@
     <MESSAGE value="Category kısmında alt categori başlıkları oluşturuldu ve Home page sayfasında ki ayarlar yapıldı." />
     <MESSAGE value="User Profil Page oluşturuldu ve jetstream sayfası panele alındı." />
     <MESSAGE value="User Profil Page sayfasında ek alanlar oluşturuldu" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Profil Page sayfasında ek alanlar oluşturuldu" />
+    <MESSAGE value="Create messages tablosu oluşturuldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create messages tablosu oluşturuldu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -436,26 +443,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612227437908">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612279390841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612227437908" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612279390841" />
     <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1612050160802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612050160802" />
-    <state width="364" height="200" key="Git.Branch.Popup" timestamp="1612137505363">
+    <state width="366" height="202" key="Git.Branch.Popup" timestamp="1612230302953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="364" height="200" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612137505363" />
+    <state width="366" height="202" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612230302953" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1609454418194" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612102427238">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612272247866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612102427238" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612272247866" />
     <state x="478" y="66" key="RollbackChangesDialog" timestamp="1611358901911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -464,14 +471,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612137506973">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612230310075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612137506973" />
-    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610661689272">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612230310075" />
+    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612266981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1610661689272" />
+    <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1612266981590" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1611450902090">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
