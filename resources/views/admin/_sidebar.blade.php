@@ -21,13 +21,13 @@
                     <span class="menu-title">About us</span>
                 </a>
             </li>
-
             <li class="nav-item">
-                <a class="nav-link" href="{{route('admin_message')}}">
-                    <i class="menu-icon typcn typcn-document-text"></i>
-                    <span class="menu-title">Contact Messages</span>
+                <a class="nav-link" href="{{route('admin_category')}}">
+                    <i class="menu-icon typcn typcn-bell"></i>
+                    <span class="menu-title">Category</span>
                 </a>
             </li>
+
 
             <li class="nav-item">
                 <a class="nav-link"  href="{{route('admin_transfers')}}">
@@ -35,25 +35,26 @@
                     <span class="menu-title">Transfers</span>
                 </a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link" href="pages/charts/chartjs.html">
+                    <i class="menu-icon typcn typcn-th-large-outline"></i>
+                    <span class="menu-title">Reservations</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('admin_message')}}">
+                    <i class="menu-icon typcn typcn-document-text"></i>
+                    <span class="menu-title">Contact Messages</span>
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="pages/forms/basic_elements.html">
                     <i class="menu-icon typcn typcn-shopping-bag"></i>
                     <span class="menu-title">Cities</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="pages/charts/chartjs.html">
-                    <i class="menu-icon typcn typcn-th-large-outline"></i>
-                    <span class="menu-title">Services</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{route('admin_category')}}">
-                    <i class="menu-icon typcn typcn-bell"></i>
-                    <span class="menu-title">Category</span>
-                </a>
-            </li>
+
+
             <li class="nav-item">
                 <a class="nav-link" href="{{route('admin_setting')}}">
                     <i class="menu-icon typcn typcn-user-outline"></i>

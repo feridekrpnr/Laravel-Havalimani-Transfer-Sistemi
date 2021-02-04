@@ -11,6 +11,7 @@
     @include('home._header')
 @endsection
 @section('content')
+    @include('home._slider')
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -193,6 +194,4 @@
         </div>
     </div>
 @endsection
-@section('portfolio')
-    @include('home._portfolio')
-@endsection
+

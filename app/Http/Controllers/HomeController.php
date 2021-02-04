@@ -22,14 +22,33 @@ class HomeController extends Controller
     }
      public function index()
      {
-         return Setting::first();
-         return view('home.index', ['setting'=>$setting]);
+         $setting = Setting::first();
+         $slider = Transfer::all()->limit(4)->get();
+          print_r($slider);
+          exit();
+         $data = [
+             'setting' => $setting,
+             'slider'=>$slider,
+             'page' => 'home'
+         ];
+
+         return view('home.index');
      }
-    public function transfer($id)
+
+    public function transfer($id,$slug){
+        $setting=Setting::first();
+        $data=transfer::find($id);
+        $datalist=Image::where('transfer_id',$id)->get();
+        return view('home.transfer_detail',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist]);
+
+    }
+    public function categorytransfers($id,$slug)
     {
-        $data = Transfer::find($id);
-        print_r($data);
-        exit();
+        $datalist = Transfer::where('category_id',$id)->get();
+        $data = Category::find($id);
+        #print_r($data);
+        #exit();
+        return view('home.category_transfers', ['data'=>$data,'datalist'=>$datalist]);
     }
     public function aboutus()
     {

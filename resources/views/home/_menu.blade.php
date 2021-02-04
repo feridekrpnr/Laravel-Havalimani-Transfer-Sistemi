@@ -8,10 +8,13 @@
         <div class="collapse navbar-collapse text-dark" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto ">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('home')}}">Home</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('aboutus')}}">About Us</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('vehicles')}}">Vehicles</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('references')}}">References</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('faq')}}">Faq</a></li>
+                @php
+                    $parentCategories = \App\Http\Controllers\HomeController::categorylist()
+                @endphp
+                @foreach($parentCategories as $rs)
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('categorytransfers',['id'=>$rs->id,'slug'=>$rs->title])}}">{{$rs->title}}</a></li>
+                @endforeach
+
                 @guest
 
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/login">Login</a></li>

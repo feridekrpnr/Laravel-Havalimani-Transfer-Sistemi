@@ -34,6 +34,8 @@ Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendm
 Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount');
 Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
 
+Route::get('/transfer/{id}/{slug}', [HomeController::class, 'transfer'])->name('transfer');
+Route::get('/categorytransfers/{id}/{slug}', [HomeController::class, 'categorytransfers'])->name('categorytransfers');
 
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 //Admin
