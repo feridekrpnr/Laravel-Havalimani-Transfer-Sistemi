@@ -24,6 +24,7 @@ Route::redirect('/', '/index')->name('home');
 Route::get('/', function () {
     return view('home.index');
 });
+Route::get('/', [HomeController::class, 'index'])->name('homepage');
 Route::get('/home', [HomeController::class, 'index'])->name('homepage');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('/vehicles', [HomeController::class, 'vehicles'])->name('vehicles');

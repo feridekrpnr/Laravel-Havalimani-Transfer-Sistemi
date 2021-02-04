@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Category Transfer araçları listeleme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -253,7 +251,7 @@
       <workItem from="1612363993919" duration="1091000" />
       <workItem from="1612382669193" duration="14184000" />
       <workItem from="1612441409577" duration="4769000" />
-      <workItem from="1612455324913" duration="4968000" />
+      <workItem from="1612455324913" duration="17800000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -409,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612287697657</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Category Transfer araçları listeleme">
+      <created>1612461006086</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612461006086</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +454,8 @@
     <MESSAGE value="User Profil Page sayfasında ek alanlar oluşturuldu" />
     <MESSAGE value="Create messages tablosu oluşturuldu" />
     <MESSAGE value="Contact mesajların admin panelde yönetimi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact mesajların admin panelde yönetimi" />
+    <MESSAGE value="Category Transfer araçları listeleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Category Transfer araçları listeleme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -468,10 +474,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612050160802" />
-    <state width="368" height="204" key="Git.Branch.Popup" timestamp="1612287798584">
+    <state width="370" height="206" key="Git.Branch.Popup" timestamp="1612461026994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="368" height="204" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612287798584" />
+    <state width="370" height="206" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612461026994" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -488,10 +494,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612287804164">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612461036522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612287804164" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612461036522" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612266981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
