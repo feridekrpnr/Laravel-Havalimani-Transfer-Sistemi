@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d7f9e3b1b979f358098b8a91976268c",
+    "content-hash": "c60930f949f673d521f630ad08b49545",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1359,27 +1359,28 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v1.6.5",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "0d3d5a9c91702892c0b0d2047fd81540747053e9"
+                "reference": "9996dfd8e6898a5b45d627ab6a5cdfbd255a47da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/0d3d5a9c91702892c0b0d2047fd81540747053e9",
-                "reference": "0d3d5a9c91702892c0b0d2047fd81540747053e9",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/9996dfd8e6898a5b45d627ab6a5cdfbd255a47da",
+                "reference": "9996dfd8e6898a5b45d627ab6a5cdfbd255a47da",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "illuminate/support": "^8.0",
                 "jenssegers/agent": "^2.6",
-                "laravel/fortify": "^1.0",
+                "laravel/fortify": "^1.6.1",
+                "league/commonmark": "^1.3",
                 "php": "^7.3|^8.0"
             },
             "require-dev": {
-                "inertiajs/inertia-laravel": "^0.2.4",
+                "inertiajs/inertia-laravel": "^0.3",
                 "laravel/sanctum": "^2.6",
                 "mockery/mockery": "^1.0",
                 "orchestra/testbench": "^6.0",
@@ -1388,7 +1389,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1421,20 +1422,20 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2020-12-15T19:12:42+00:00"
+            "time": "2021-02-02T16:02:02+00:00"
         },
         {
             "name": "laravel/sanctum",
-            "version": "v2.8.2",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9"
+                "reference": "eb191ddfc3ec04bbead33593bf982e871095f25c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9",
-                "reference": "331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/eb191ddfc3ec04bbead33593bf982e871095f25c",
+                "reference": "eb191ddfc3ec04bbead33593bf982e871095f25c",
                 "shasum": ""
             },
             "require": {
@@ -1485,7 +1486,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2020-11-24T17:31:19+00:00"
+            "time": "2021-01-26T19:47:38+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -1866,16 +1867,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.3.5",
+            "version": "v2.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "781a1250dc8eab9121fd856ff0b6efca8c32756f"
+                "reference": "8f027e9bc5ad1f08f0c900244e6fdb9966f7a287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/781a1250dc8eab9121fd856ff0b6efca8c32756f",
-                "reference": "781a1250dc8eab9121fd856ff0b6efca8c32756f",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/8f027e9bc5ad1f08f0c900244e6fdb9966f7a287",
+                "reference": "8f027e9bc5ad1f08f0c900244e6fdb9966f7a287",
                 "shasum": ""
             },
             "require": {
@@ -1926,7 +1927,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.3.5"
+                "source": "https://github.com/livewire/livewire/tree/v2.3.16"
             },
             "funding": [
                 {
@@ -1934,7 +1935,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-01T20:51:29+00:00"
+            "time": "2021-02-05T15:05:19+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",

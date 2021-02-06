@@ -36,6 +36,8 @@ Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount'
 Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
 
 Route::get('/transfer/{id}/{slug}', [HomeController::class, 'transfer'])->name('transfer');
+Route::get('/transferdetail/{id}/{slug}', [HomeController::class, 'detay'])->name('transfer_detail');
+
 Route::get('/categorytransfers/{id}/{slug}', [HomeController::class, 'categorytransfers'])->name('categorytransfers');
 
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
@@ -64,7 +66,18 @@ Route::middleware('auth')->prefix('admin')->group(function() {
         Route::get('show', [\App\Http\Controllers\Admin\TransferController::class, 'show'])->name('admin_transfer_show');
 
     });
-    //Transfer
+    //Location
+
+    Route::prefix('location')->group(function () {
+        Route::get('/', [\App\Http\Controllers\Admin\LocationController::class, 'index'])->name('admin_location');
+        Route::get('create', [\App\Http\Controllers\Admin\LocationController::class, 'create'])->name('admin_location_add');
+        Route::post('store', [\App\Http\Controllers\Admin\LocationController::class, 'store'])->name('admin_location_store');
+        Route::get('edit/{id}', [\App\Http\Controllers\Admin\LocationController::class, 'edit'])->name('admin_location_edit');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\LocationController::class, 'update'])->name('admin_location_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\LocationController::class, 'destroy'])->name('admin_location_delete');
+        Route::get('show/{id}', [\App\Http\Controllers\Admin\LocationController::class, 'show'])->name('admin_location_show');
+    });
+    //Message
     Route::prefix('message')->group(function () {
 
         Route::get('/', [MessageController::class, 'index'])->name('admin_message');

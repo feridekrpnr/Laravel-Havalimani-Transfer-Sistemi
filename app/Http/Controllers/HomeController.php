@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Image;
 use App\Models\Message;
 use App\Models\Setting;
 use App\Models\Transfer;
@@ -37,16 +38,26 @@ class HomeController extends Controller
              'page' => 'home'
          ];
 
-         return view('home.index',$data);
+         return view('home.index', $data);
      }
 
     public function transfer($id,$slug){
         $setting=Setting::first();
-        $data=transfer::find($id);
-        $datalist=Image::where('transfer_id',$id)->get();
+        $data= Transfer::where('id','=',$id)->get();
+        $datalist = Image::where('transfer_id',$id)->get();
+       // $datalist=Image::where('transfer_id',$id)->get();
         return view('home.transfer_detail',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist]);
 
     }
+    public function detay($id,$slug){
+        $setting=Setting::first();
+        $data= Transfer::find($id);
+        $datalist = Image::where('transfer_id',$id)->get();
+        // $datalist=Image::where('transfer_id',$id)->get();
+        return view('home.detay_deneme',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist]);
+
+    }
+
     public function categorytransfers($id,$slug)
     {
         $datalist = Transfer::where('category_id',$id)->get();

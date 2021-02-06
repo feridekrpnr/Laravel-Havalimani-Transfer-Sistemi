@@ -25,12 +25,12 @@
                     <div class="col-lg-4 price-mobamus">
                         <div class="price-top">
 
-                            <a href="{{route('transfer',['id' => $rs->id,'slug' => $rs->title])}}">
+                            <a href="{{route('transfer_detail',['id' => $rs->id,'slug' => $rs->title])}}">
                                 <img src="{{ Storage::url($rs->image) }}" alt="" class="img-fluid" />
                             </a>
                         </div>
                         <div class="price-w3ls-bottom p-4">
-                            <h4 class="my-2"><a href="{{route('transfer',['id' => $rs->id,'slug' => $rs->title])}}">{{$rs->title}}</a></h4>
+                            <h4 class="my-2"><a href="{{route('transfer_detail',['id' => $rs->id,'slug' => $rs->title])}}">{{$rs->title}}</a></h4>
                             <div class="lm-item-price">
                                 <h6>
                                     <span class="price-midd-head">{{$rs->baseprice}}</span>
@@ -38,7 +38,7 @@
                                 </h6>
                             </div>
 
-                            <a href="{{route('transfer',['id' => $rs->id,'slug' => $rs->slug])}}" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
+                            <a href="{{route('transfer_detail',['id' => $rs->id,'slug' => $rs->slug])}}" class="btn button-style-2 mt-sm-5 mt-4">Book Now</a>
                         </div>
                     </div>
                 @endforeach

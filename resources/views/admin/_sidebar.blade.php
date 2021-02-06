@@ -48,9 +48,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/forms/basic_elements.html">
+                <a class="nav-link" href="{{route('admin_location')}}">
                     <i class="menu-icon typcn typcn-shopping-bag"></i>
-                    <span class="menu-title">Cities</span>
+                    <span class="menu-title">Location</span>
                 </a>
             </li>
 
