@@ -31,14 +31,15 @@ Route::get('/vehicles', [HomeController::class, 'vehicles'])->name('vehicles');
 Route::get('/references', [HomeController::class, 'references'])->name('references');
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
-Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount');
 Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
-
+Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 Route::get('/transfer/{id}/{slug}', [HomeController::class, 'transfer'])->name('transfer');
 Route::get('/transferdetail/{id}/{slug}', [HomeController::class, 'detay'])->name('transfer_detail');
-
 Route::get('/categorytransfers/{id}/{slug}', [HomeController::class, 'categorytransfers'])->name('categorytransfers');
+Route::post('/gettransfer', [HomeController::class, 'gettransfer'])->name('gettransfer');
+Route::get('/transferlist/{search}', [HomeController::class, 'transferlist'])->name('transferlist');
+
 
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 //Admin

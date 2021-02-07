@@ -40,9 +40,40 @@ class HomeController extends Controller
 
          return view('home.index', $data);
      }
+    public function gettransfer(Request $request)
+    {
+        $search=$request->input('search');
 
+        $count=Transfer::where('title','like','%'.$search.'%')->get()->count();
+        if($count==1)
+        {
+            $data=Transfer::where('title','like','%'.$search.'%')->first();
+            return redirect()->route('transfer',['id'=>$data->id,'slug'=>$data->slug]);
+        }
+        else
+        {
+            return redirect()->route('transferlist',['search'=>$search]);
+        }
+
+
+    }
+    public function search_page(){
+        $setting=Setting::first();
+        return view('home.search_page',['setting'=>$setting,'page'=>'home']);
+    }
+
+    public function transferlist($search){
+
+
+        $datalist= Transfer::where('title','like','%'.$search.'%')->get();
+
+
+        return view('home.search_transfers',['search'=>$search,'datalist'=>$datalist]);
+
+    }
     public function transfer($id,$slug){
         $setting=Setting::first();
+        $data=Transfer::find($id);
         $data= Transfer::where('id','=',$id)->get();
         $datalist = Image::where('transfer_id',$id)->get();
        // $datalist=Image::where('transfer_id',$id)->get();

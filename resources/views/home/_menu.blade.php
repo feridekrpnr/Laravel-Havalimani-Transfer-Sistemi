@@ -7,6 +7,19 @@
         </button>
         <div class="collapse navbar-collapse text-dark" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto ">
+                <section class="contact py-2" id="contact">
+                    <div class="container py-xl-2 py-lg-1">
+                        <div class="search">
+                            <form action="{{route('gettransfer')}}" method="post" class="input-append">
+                                @csrf
+                                @livewire('search')
+                                <button class="btn btn-dark" type="submit">Search</button>
+                            </form>
+                            @livewireScripts
+                        </div>
+
+                    </div>
+                </section>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('home')}}">Home</a></li>
                 @php
                     $parentCategories = \App\Http\Controllers\HomeController::categorylist()
