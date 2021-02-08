@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\Admin\MessageController;
+use App\Http\Controllers\Admin\ReviewController;
 use App\Http\Controllers\HomeController;
+
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -35,13 +37,39 @@ Route::get('/myaccount', [HomeController::class, 'myaccount'])->name('myaccount'
 Route::get('/login/join', [HomeController::class, 'login/join'])->name('login/join');
 Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 Route::get('/transfer/{id}/{slug}', [HomeController::class, 'transfer'])->name('transfer');
-Route::get('/transferdetail/{id}/{slug}', [HomeController::class, 'detay'])->name('transfer_detail');
+
+Route::get('/transfer_detail/{id}/{slug}', [HomeController::class, 'detay'])->name('transfer_detail');
 Route::get('/categorytransfers/{id}/{slug}', [HomeController::class, 'categorytransfers'])->name('categorytransfers');
 Route::post('/gettransfer', [HomeController::class, 'gettransfer'])->name('gettransfer');
 Route::get('/transferlist/{search}', [HomeController::class, 'transferlist'])->name('transferlist');
+Route::post('/sendreview/{id}/{slug}', [HomeController::class, 'sendreview'])->name('sendreview');
 
 
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
+Route::middleware('auth')->prefix('user')->namespace('user')->group(function () {
+
+    Route::get('/profile',[UserController::class,'index'])->name('profile');
+//review
+    Route::prefix('review')->group(function (){
+
+        Route::get('/',[\App\Http\Controllers\ReviewController::class,'index'])->name('user_review');
+        Route::post('update/{id}',[\App\Http\Controllers\ReviewController::class,'update'])->name('user_review_update');
+        Route::get('delete/{id}',[\App\Http\Controllers\ReviewController::class,'destroy'])->name('user_review_delete');
+        Route::get('show/{id}',[\App\Http\Controllers\ReviewController::class,'show'])->name('user_review_show');
+
+    });
+
+
+});
+
+
+
+
+
+
+
+
+
 //Admin
 Route::middleware('auth')->prefix('admin')->group(function() {
 
@@ -54,6 +82,16 @@ Route::middleware('auth')->prefix('admin')->group(function() {
     Route::post('category/update/{id}', [\App\Http\Controllers\Admin\CategoryController::class, 'update'])->name('admin_category_update');
     Route::get('category/delete/{id}', [\App\Http\Controllers\Admin\CategoryController::class, 'destroy'])->name('admin_category_delete');
     Route::get('category/show', [\App\Http\Controllers\Admin\CategoryController::class, 'show'])->name('admin_category_show');
+    #Transport
+
+    Route::get('transport', [\App\Http\Controllers\Admin\TransportController::class, 'index'])->name('admin_transport');
+    Route::get('transport/add', [\App\Http\Controllers\Admin\TransportController::class, 'add'])->name('admin_transport_add');
+    Route::post('transport/create', [\App\Http\Controllers\Admin\TransportController::class, 'create'])->name('admin_transport_create');
+    Route::get('transport/edit/{id}', [\App\Http\Controllers\Admin\TransportController::class, 'edit'])->name('admin_transport_edit');
+    Route::post('transport/update/{id}', [\App\Http\Controllers\Admin\TransportController::class, 'update'])->name('admin_transport_update');
+    Route::get('transport/delete/{id}', [\App\Http\Controllers\Admin\TransportController::class, 'destroy'])->name('admin_transport_delete');
+    Route::get('transport/show', [\App\Http\Controllers\Admin\TransportController::class, 'show'])->name('admin_transport_show');
+
 
     //Transfer
     Route::prefix('transfer')->group(function () {
@@ -87,6 +125,15 @@ Route::middleware('auth')->prefix('admin')->group(function() {
         Route::get('delete/{id}', [MessageController::class, 'destroy'])->name('admin_message_delete');
         Route::get('show', [MessageController::class, 'show'])->name('admin_message_show');
 
+    });
+    //review
+    Route::prefix('reviews')->group(function (){
+
+        Route::get('/',[ReviewController::class,'index'])->name('admin_review');
+        Route::get('edit/{id}',[ReviewController::class,'edit'])->name('admin_review_edit');
+        Route::post('update/{id}',[ReviewController::class,'update'])->name('admin_review_update');
+        Route::get('delete/{id}',[ReviewController::class,'destroy'])->name('admin_review_delete');
+        Route::post('show',[ReviewController::class,'show'])->name('admin_review_show');
     });
     //Transfer Image Galery
     Route::prefix('image')->group(function () {

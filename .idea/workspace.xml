@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Transfer Detail sayfası oluşturuldu.">
+    <list default="true" id="9c2c35a0-e1b7-4364-9a7c-0e780611c518" name="Default Changelist" comment="Search butonu oluşturuldu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,15 +174,15 @@
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\home" />
       <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\admin" />
+      <recent name="C:\php\Laravel-Havalimani-Transfer-Sistemi\resources\views\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -252,7 +252,10 @@
       <workItem from="1612441409577" duration="4769000" />
       <workItem from="1612455324913" duration="20289000" />
       <workItem from="1612530224208" duration="24096000" />
-      <workItem from="1612610599545" duration="15396000" />
+      <workItem from="1612610599545" duration="16375000" />
+      <workItem from="1612690771810" duration="21225000" />
+      <workItem from="1612737691765" duration="6306000" />
+      <workItem from="1612780560570" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Template düzenli bir şekilde parçalandı.">
       <created>1609100390286</created>
@@ -429,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612630297642</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Search butonu oluşturuldu.">
+      <created>1612657380086</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612657380086</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +482,8 @@
     <MESSAGE value="Category Transfer araçları listeleme" />
     <MESSAGE value="Home transfersde araçlar gösterildi" />
     <MESSAGE value="Transfer Detail sayfası oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer Detail sayfası oluşturuldu." />
+    <MESSAGE value="Search butonu oluşturuldu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Search butonu oluşturuldu." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1610313065582">
@@ -483,26 +494,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610222922079" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612279390841">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612744514326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612279390841" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612744514326" />
     <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1612050160802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612050160802" />
-    <state width="374" height="210" key="Git.Branch.Popup" timestamp="1612630316761">
+    <state width="378" height="214" key="Git.Branch.Popup" timestamp="1612657432879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="374" height="210" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612630316761" />
+    <state width="378" height="214" key="Git.Branch.Popup/0.0.1366.728@0.0.1366.728" timestamp="1612657432879" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1609454418194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1609454418194" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612640018014">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612703416086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612640018014" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612703416086" />
     <state x="478" y="66" key="RollbackChangesDialog" timestamp="1612536307610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -511,10 +522,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607892845395" />
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612630340847">
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2" timestamp="1612657434915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612630340847" />
+    <state x="111" y="108" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612657434915" />
     <state x="561" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612266981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -527,10 +538,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611450902090" />
-    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1612651233418">
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1612742900670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612651233418" />
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612742900670" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

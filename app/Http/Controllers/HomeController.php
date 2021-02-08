@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Image;
+use App\Models\Location;
 use App\Models\Message;
+use App\Models\Review;
 use App\Models\Setting;
 use App\Models\Transfer;
 use Illuminate\Http\Request;
@@ -72,23 +74,25 @@ class HomeController extends Controller
 
     }
     public function transfer($id,$slug){
+
         $setting=Setting::first();
         $data=Transfer::find($id);
-        $data= Transfer::where('id','=',$id)->get();
+        $locations=Location::where('transfer_id',$id)->get();
+        $reviews=Review::where('transfer_id',$id)->get();
         $datalist = Image::where('transfer_id',$id)->get();
-       // $datalist=Image::where('transfer_id',$id)->get();
-        return view('home.transfer_detail',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist]);
+        return view('home.transfer_detail',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist,'locations'=>$locations,'reviews'=>$reviews]);
 
     }
     public function detay($id,$slug){
         $setting=Setting::first();
         $data= Transfer::find($id);
+        $reviews=Review::where('transfer_id',$id)->get();
+
         $datalist = Image::where('transfer_id',$id)->get();
         // $datalist=Image::where('transfer_id',$id)->get();
-        return view('home.detay_deneme',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist]);
+        return view('home.transfer_detail',['setting'=>$setting,'data'=>$data,'datalist'=>$datalist,'reviews'=>$reviews]);
 
     }
-
     public function categorytransfers($id,$slug)
     {
         $datalist = Transfer::where('category_id',$id)->get();
@@ -122,6 +126,27 @@ class HomeController extends Controller
     {
         $setting=Setting::first();
         return view('home.contact', ['setting'=>$setting]);
+    }
+    public function review()
+    {
+        $setting = Review::first();
+        return view('home.review', ['setting' => $setting]);
+    }
+    public function sendreview(Request $request,$id)
+    {
+        $data = new Review;
+
+        $data->user_id = Auth::id();
+        $transfer = Transfer::find($id);
+        $data->transfer_id=$id;
+        $data->subject = $request->input('subject');
+        $data->review = $request->input('review');
+        $data->IP = $_SERVER['REMOTE_ADDR'];
+        $data->rate = $request->input('rate');
+
+        $data->save();
+
+        return redirect()->route('transfer',['id'=>$transfer->id,'slug'=>$transfer->slug])->with('success','Yourumunuz kaydedilmiştir');
     }
     public function sendmessage(Request $request)
     {
